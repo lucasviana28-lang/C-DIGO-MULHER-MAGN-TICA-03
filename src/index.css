@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Poppins:wght@400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+  
+  --color-primary-red: #8B0000;
+  --color-cta-green: #00C853;
+  --color-cta-hover: #00A344;
+  --color-text-muted: #CCCCCC;
+}
+
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.headline {
+  font-family: var(--font-heading);
+}
+
+.section-box {
+  border: 1px solid rgba(139, 0, 0, 0.4);
+  padding: 24px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.guarantee-badge {
+  border: 2px dashed var(--color-primary-red);
+  padding: 20px;
+  text-align: center;
+  background: rgba(139, 0, 0, 0.05);
+}
+
+.footer-bar {
+  background: var(--color-primary-red);
+}
+
+.editorial-gradient {
+  background: linear-gradient(135deg, #000 0%, #1a0000 100%);
+}
